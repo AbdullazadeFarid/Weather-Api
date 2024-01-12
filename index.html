@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Information</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./style/style.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="mb-4">Weather for <span id="cityName"></span></h1>
+            <p><strong>Temperature:</strong> <span id="temp"></span>°C</p>
+            <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+            <p><strong>Wind Speed:</strong> <span id="windSpeed"></span> km/h</p>
+            <p><strong>Description:</strong> <span id="description"></span></p>
+            <div class="text-center">
+                <img id="weatherIcon" alt="Weather Icon">
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+
+</html>
